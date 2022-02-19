@@ -1,6 +1,6 @@
 {
   "name": "fast-eslint-8",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "license": "MIT",
   "description": "ESLint v8.x linter plugin for JavaScript, based on fast-eslint",
   "engines": {

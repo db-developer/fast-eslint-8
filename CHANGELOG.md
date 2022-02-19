@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [5.0.1](https://github.com/db-developer/fast-eslint-8/compare/v5.0.0...v5.0.1) - 2022-02-19
+
+### Fixed
+
+- [Linter] Error running ESLint Error: No ESLint configuration found in ...\fast-eslint-8\lib
+
+### Added
+
+- Configurable directory location for .eslintrc.* files.
+
 ## [5.0.0] - 2022-02-19
 
 Initial 'impatience" version based on
