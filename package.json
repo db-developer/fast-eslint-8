@@ -1,0 +1,117 @@
+{
+  "name": "fast-eslint-8",
+  "version": "5.0.0",
+  "license": "MIT",
+  "description": "ESLint v8.x linter plugin for JavaScript, based on fast-eslint",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "keywords": [
+    "atom",
+    "javascript",
+    "linter",
+    "lint",
+    "eslint",
+    "airbnb",
+    "standard",
+    "google",
+    "xo"
+  ],
+  "main": "lib/index.js",
+  "activationCommands": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/db-developer/fast-eslint-8.git"
+  },
+  "homepage": "https://github.com/db-developer/fast-eslint-8#readme",
+  "author": "Copied from Arnaud Dezandee <dezandee.arnaud@gmail.com> (https://github.com/arnaud-dezandee)",
+  "contributors": [
+    {
+      "name": "Dirk Brenckmann",
+      "email": "db.developer@gmx.de"
+    }
+  ],
+  "configSchema": {
+    "baseConfigExtends": {
+      "title": "BaseConfig Extends",
+      "description": "List of ESLint shareable config names. See [shareable configs](http://eslint.org/docs/developer-guide/shareable-configs). Those will be used as *baseConfig.extends*. Example: **standard, standard-react**",
+      "type": "array",
+      "default": [],
+      "items": {
+        "type": "string"
+      }
+    },
+    "eslintrc": {
+      "title": "eslintrc",
+      "description": "...",
+      "type": "object",
+      "properties" :{
+        "useEslintrc": {
+          "title": "Use .eslintrc.* files",
+          "description": "Automatically load and use configuration files, that can be found in default locations.",
+          "type": "boolean",
+          "default": true
+        },
+        "overrideConfigFile": {
+          "title": ".eslintrc.* override file.",
+          "description": "One configuration file, to rule them all (overrides all other files).",
+          "type": "string",
+          "default": ""
+        },
+        "rulePaths": {
+          "title": "Configuration directories.",
+          "description": "An array of additional directories, to load custom rules from.",
+          "type": "array",
+          "default": [],
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "grammarScopes": {
+      "title": "Grammar scopes",
+      "description": "Run `Editor: Log Cursor Scope` to determine file scopes.",
+      "type": "array",
+      "default": [
+        "source.js",
+        "source.jsx",
+        "source.es6",
+        "source.js.jsx",
+        "source.babel",
+        "source.js-semantic"
+      ],
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-linter": "^10.0.0",
+    "atom-package-deps": "^8.0.0",
+    "eslint": "^8.9.0",
+    "loophole": "1.1.0"
+  },
+  "devDependencies": {
+    "@semantic-release/apm-config": "8.0.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-plugin-import": "2.22.1",
+    "semantic-release": "17.1.2"
+  },
+  "package-deps": [
+    {
+      "name": "linter",
+      "minimumVersion": "3.0.0"
+    }
+  ],
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "2.0.0": "provideLinter"
+      }
+    }
+  },
+  "release": {
+    "extends": "@semantic-release/apm-config"
+  }
+}
