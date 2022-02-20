@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [5.0.2](https://github.com/db-developer/fast-eslint-8/compare/v5.0.1...v5.0.2) - 2022-02-20
+
+Some cosmetic updates.
+
+### Fixed
+
+- [Linter] further errors now will be displayed as linter errors.
+
 ## [5.0.1](https://github.com/db-developer/fast-eslint-8/compare/v5.0.0...v5.0.1) - 2022-02-19
 
 ### Fixed
