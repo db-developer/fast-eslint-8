@@ -27,7 +27,9 @@ Initial 'impatience" version based on
 
 ### Fixed
 
-- Switched from CLIEngine to ESLint
+- Switched from CLIEngine to ESLint  
+  [CLIEngine removed](https://eslint.org/docs/8.0.0/user-guide/migrating-to-8.0.0#-the-cliengine-class-has-been-removed)
+- IgnorePattern has moved to <code>@eslint/eslintrc</code>
 - Switched atom config from 'fast-eslint' to 'fast-eslint-8'
 
 ### Bugs
