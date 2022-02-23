@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [5.1.1](https://github.com/db-developer/fast-eslint-8/compare/v5.1.0...v5.1.1) - 2022-02-23
+
+### Fixed
+
+- [#5](https://github.com/db-developer/fast-eslint-8/issues/5) .eslintignore results in Error
+
+
 ## [5.1.0](https://github.com/db-developer/fast-eslint-8/compare/v5.0.2...v5.1.0) - 2022-02-23
 
 ### Breaking changes
