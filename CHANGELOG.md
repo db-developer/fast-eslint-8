@@ -2,6 +2,31 @@
 
 All notable changes to this project will be documented in this file.
 
+## [5.1.0](https://github.com/db-developer/fast-eslint-8/compare/v5.0.2...v5.1.0) - 2022-02-23
+
+### Breaking changes
+Due to the following changes to <code>configSchema</code>, old settings for fast-eslint-8 must be transferred to new
+property fields.
+
+- Moved 'configSchema.baseConfigExtends' in 'package.json' to 'configSchema.baseconfig.extends'.  
+  (This opens up the opportunity for adding further configurable baseconfig settings)
+- Moved 'configSchema.eslintrc' in 'package.json' to 'configSchema.eslintopts'.  
+  (Naming adapted to ESLint engine options, which are different from eslintrc properties)
+
+### Issues
+
+- [#4](https://github.com/db-developer/fast-eslint-8/issues/4) Changing settings [...] does not trigger re-lint for
+  open editors.
+
+### Added
+
+- Added more options to 'configSchema.eslintopts'  
+  Note: Options which modify the behaviour of
+  [eslint.lintFiles()](https://eslint.org/docs/developer-guide/nodejs-api#-eslintlintfilespatterns)
+  will remain unsupported, because fast-eslint-8 does not make use of that function.
+- Added trigger for re-linting content of open texteditors on configuration change.  
+
+
 ## [5.0.2](https://github.com/db-developer/fast-eslint-8/compare/v5.0.1...v5.0.2) - 2022-02-20
 
 Some cosmetic updates.
