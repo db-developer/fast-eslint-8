@@ -32,31 +32,60 @@
     }
   ],
   "configSchema": {
-    "baseConfigExtends": {
-      "title": "BaseConfig Extends",
-      "description": "List of ESLint shareable config names. See [shareable configs](http://eslint.org/docs/developer-guide/shareable-configs). Those will be used as *baseConfig.extends*. Example: **standard, standard-react**",
-      "type": "array",
-      "default": [],
-      "items": {
-        "type": "string"
+    "baseconfig": {
+      "title": "Base Config",
+      "description": "Adding values to any property of this group, will result in creating a 'base config' which is passed to ESLint Engine Options (the group below).",
+      "type": "object",
+      "properties": {
+        "extends": {
+          "title": "Extends",
+          "description": "List of ESLint shareable config names. See [shareable configs](http://eslint.org/docs/developer-guide/shareable-configs). Those will be used as *baseConfig.extends*. Example: **standard, standard-react**",
+          "type": "array",
+          "default": [],
+          "items": {
+            "type": "string"
+          }
+        }
       }
     },
-    "eslintrc": {
-      "title": "eslintrc",
-      "description": "...",
+    "eslintopts": {
+      "title": "ESLint Engine Options",
+      "description": "See [ESLint options](https://eslint.org/docs/developer-guide/nodejs-api#-new-eslintoptions)",
       "type": "object",
-      "properties" :{
-        "useEslintrc": {
-          "title": "Use .eslintrc.* files",
-          "description": "Automatically load and use configuration files, that can be found in default locations.",
+      "properties": {
+        "cwd": {
+          "title": "cwd",
+          "description": "The [c]urrent [w]orking [d]irectory, which must be an absolute path and defaults to [process.cwd()](https://nodejs.org/api/process.html#processcwd)",
+          "type": "string",
+          "default": "",
+          "order": 1
+        },
+        "allowInlineConfig": {
+          "title": "Allow inline configuration",
+          "description": " If false, ESLint suppresses directive comments in source code and it overrides the noInlineConfig settings in your configurations.",
           "type": "boolean",
-          "default": true
+          "default": true,
+          "order": 2
         },
         "overrideConfigFile": {
           "title": ".eslintrc.* override file.",
           "description": "One configuration file, to rule them all (overrides all other files).",
           "type": "string",
-          "default": ""
+          "default": "",
+          "order": 3
+        },
+        "reportUnusedDisableDirectives ": {
+          "title": "Report unused disable directives",
+          "description": "The severity to report unused eslint-disable directives. If set, it overrides namelike settings in your configurations.",
+          "type": "string",
+          "default": "",
+          "enum": [
+            { "value": "error", "description": "severity: error" },
+            { "value": "warn",  "description": "severity: warn" },
+            { "value": "off",   "description": "severity: off" },
+            { "value": "",      "description": "not set" }
+          ],
+          "order": 4
         },
         "rulePaths": {
           "title": "Configuration directories.",
@@ -65,7 +94,15 @@
           "default": [],
           "items": {
             "type": "string"
-          }
+          },
+          "order": 5
+        },
+        "useEslintrc": {
+          "title": "Use .eslintrc.* files",
+          "description": "Automatically load and use configuration files, that can be found in default locations.",
+          "type": "boolean",
+          "default": true,
+          "order": 6
         }
       }
     },
