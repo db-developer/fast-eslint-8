@@ -80,16 +80,28 @@
           "type": "string",
           "default": "",
           "enum": [
-            { "value": "error", "description": "severity: error" },
-            { "value": "warn",  "description": "severity: warn" },
-            { "value": "off",   "description": "severity: off" },
-            { "value": "",      "description": "not set" }
+            {
+              "value": "error",
+              "description": "severity: error"
+            },
+            {
+              "value": "warn",
+              "description": "severity: warn"
+            },
+            {
+              "value": "off",
+              "description": "severity: off"
+            },
+            {
+              "value": "",
+              "description": "not set"
+            }
           ],
           "order": 4
         },
         "rulePaths": {
           "title": "Configuration directories.",
-          "description": "An array of additional directories, to load custom rules from.",
+          "description": "An array of additional directories (rule paths), to load custom rules from.",
           "type": "array",
           "default": [],
           "items": {
@@ -139,7 +151,8 @@
     {
       "name": "linter-ui-default",
       "minimumVersion": "3.3.1"
-    }, {
+    },
+    {
       "name": "linter",
       "minimumVersion": "3.0.0"
     }
