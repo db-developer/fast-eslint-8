@@ -100,7 +100,7 @@
           "order": 4
         },
         "rulePaths": {
-          "title": "Configuration directories.",
+          "title": "Custom rule directories",
           "description": "An array of additional directories (rule paths), to load custom rules from.",
           "type": "array",
           "default": [],
