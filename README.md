@@ -2,9 +2,10 @@
 
 Lightweight eslint v8.x linter plugin for [Atom](https://atom.io), based on fast-eslint.  
 
-[![apm](https://img.shields.io/apm/v/badges.svg?style=flat-square)](https://atom.io/packages/fast-eslint-8)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![apm](https://img.shields.io/apm/dm/badges.svg?style=flat-square)](https://atom.io/packages/fast-eslint-8)
+[![APM](https://img.shields.io/apm/v/fast-eslint-8)](https://atom.io/packages/fast-eslint-8)
+[![GitHub Release Date](https://img.shields.io/github/release-date/db-developer/fast-eslint-8?color=blue)](https://github.com/db-developer/fast-eslint-8)
+[![APM](https://img.shields.io/apm/dm/fast-eslint-8?color=blue)](https://atom.io/packages/fast-eslint-8)
 
 This is a migration of [fast-eslint](https://github.com/arnaud-dezandee/fast-eslint/) from using
 eslint 7.10 to eslint 8.x (see [package.json](https://github.com/db-developer/fast-eslint-8)).  
@@ -60,7 +61,7 @@ Files can be be specified with filepaths of the following types:
   __Examples:__  
   Unix: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ~/.eslintrc.js => /usr/username/.eslintrc.js  
   Windows: &nbsp; ~/.eslintrc.js => C:\\Users\\username\\.eslintrc.js  
- 
+
 ### Report unused disable directives
 ![atom fast-eslint-8 settings eslint-engine-options report-unused](https://user-images.githubusercontent.com/2765933/156225128-017a29f7-d472-468b-9523-91882bc485f3.png)
 
@@ -76,4 +77,3 @@ For [working with rules](https://eslint.org/docs/developer-guide/working-with-ru
 
 ## Grammar scopes
 ![atom fast-eslint-8 settings grammar-scopes](https://user-images.githubusercontent.com/2765933/156227907-e7e1974f-85c1-456f-aaee-21c746bbdab5.png)
-
