@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
+## [5.1.2](https://github.com/db-developer/fast-eslint-8/compare/v5.1.1...v5.1.2) - 2022-03-01
+
+### Added
+
+- .eslintrc.js in directory .conf for use by fast-eslint-8 'overrideConfigFile'.
+
+### Changed
+
+- READEME.md now provides some status badges.
+- READEME.md now provides information about fast-eslint-8 settings in atom.
+
+### Fixed
+
+- Adjusted filepath handling for ESLint engine option 'rulePaths' and 'overrideConfigFile'
+
 ## [5.1.1](https://github.com/db-developer/fast-eslint-8/compare/v5.1.0...v5.1.1) - 2022-02-23
 
 ### Fixed
