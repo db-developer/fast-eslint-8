@@ -51,7 +51,7 @@ describe( "fast-eslint-8 provider for atoms linter interface - extends: 'eslint:
         }).then(() => { done()}, ( error ) => { done( error )});
     });
 
-    for ( let idx = 0; idx < 2; ++ idx ) {
+    for ( let idx = 0; idx < rcount; ++ idx ) {
           it( `eslint - checking result.excerpt ${ idx + 1 } of ${ rcount }`, ( done ) => {
               presults.then(( results ) => {
                 expect( results[ idx ].excerpt === expected[ idx ].excerpt ).toBe( true );
