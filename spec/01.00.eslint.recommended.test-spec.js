@@ -43,8 +43,6 @@ describe( "fast-eslint-8 provider for atoms linter interface - extends: 'eslint:
     let   presults  = _m.open( src );
     let   rcount    = 2;
 
-    // waitsForPromise(() => _m.open( src ).then(( messages ) => { results = messages; }));
-
     it( `eslint - results expected: ${ rcount }`, ( done ) => {
         presults.then(( results ) => {
           expect( results.length ).toEqual( rcount );
