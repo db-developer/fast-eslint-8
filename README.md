@@ -25,8 +25,7 @@ Many thanks to Arnaud Dezandee, who is the creator of [fast-eslint](https://gith
   - [User-friendly, by using atom settings](docs/atom.fast-eslint-8.settings.md)
   - [Advanced, by editing atoms configuration](docs/atom.fast-eslint-8.config.md)
 3. [Updating fast-eslint-8](docs/atom.fast-eslint-8.updating.md)
-4. Candy
-  - [Using popular styleguides with eslint, like airbnb, google and others](docs/eslint.styleguides.md)
+4. [Using popular styleguides with eslint, like airbnb, google and others](docs/eslint.styleguides.md)
 5. [Most bugging error messages](#most-bugging-error-messages)
 
 ___
