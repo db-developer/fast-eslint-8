@@ -8,7 +8,7 @@ This will open the ![atom fast-eslint-8 settings-tab](https://user-images.github
 
 ![atom fast-eslint-8 packages](https://user-images.githubusercontent.com/2765933/158053228-eecdeeb1-b1c0-4fbd-81a1-16335c063b28.png)
 
-# ![atom fast-eslint-8 settings](https://user-images.githubusercontent.com/2765933/156205865-223d0351-5efa-4a1f-a0a8-4cee36c382a7.png)
+# ![atom fast-eslint-8 settings tab](https://user-images.githubusercontent.com/2765933/158053470-60de842a-1e81-478a-a634-b4119dcb589c.png)
 
 ## Base Config
 ![atom fast-eslint-8 settings baseconfig](https://user-images.githubusercontent.com/2765933/156211318-7e2fca76-d261-4bcc-8c33-505e72aa38db.png)
