@@ -11,7 +11,7 @@ Open your <code>atom</code> editor and switch to the menu.
 
 ![atom settings-short](https://user-images.githubusercontent.com/2765933/158047464-9f39a5c5-d460-426e-8415-45339c2028e0.png)  
 
-This will open the ![atom fast-eslint-8 settings-tab](https://user-images.githubusercontent.com/2765933/156207814-8cb06045-2982-4c0a-9270-10968f55f50e.png)-Tab. Click on 'install' and type 'fast-eslint-8' into the searchbox.  
+This will open the ![atom fast-eslint-8 settings-tab](https://user-images.githubusercontent.com/2765933/156207814-8cb06045-2982-4c0a-9270-10968f55f50e.png)-Tab. Navigate to 'Install' and type 'fast-eslint-8' into the searchbox.  
 
 ![atom fast-eslint-8 install](https://user-images.githubusercontent.com/2765933/158051832-b709c8f5-c160-481b-aec2-86dd8e165f1c.png)  
 
