@@ -3,8 +3,7 @@ ___
 
 # Installing fast-eslint-8
 
-Atoms 'flight-manual' provides a detailed description of what <code>atom packages</code> are and how to handle them. If you are interested, [follow this link](https://flight-manual.atom.io/using-atom/sections/atom-packages).  
-If you prefer a brief instruction of how to install <code>fast-eslint-8</code>, simply read on here.
+Atoms 'flight-manual' provides a detailed description of what <code>atom packages</code> are and how to handle them. If you are interested, [follow this link](https://flight-manual.atom.io/using-atom/sections/atom-packages). If you prefer a brief instruction of how to install <code>fast-eslint-8</code>, simply read on here.
 
 ## User-friendly
 
@@ -14,8 +13,11 @@ Open your <code>atom</code> editor and switch to the menu.
 
 This will open the ![atom fast-eslint-8 settings-tab](https://user-images.githubusercontent.com/2765933/156207814-8cb06045-2982-4c0a-9270-10968f55f50e.png)-Tab. Click on 'install' and type 'fast-eslint-8' into the searchbox.  
 
+![atom fast-eslint-8 install](https://user-images.githubusercontent.com/2765933/158051832-b709c8f5-c160-481b-aec2-86dd8e165f1c.png)  
 
 Click on 'install' ... wait ... and confirm the installation of dependencies. (Dependencies are, in fact, a wrong wording, as they are REQUIRED for fast-eslint-8 to function.)  
+
+![atom fast-eslint-8 install dependencies](https://user-images.githubusercontent.com/2765933/158051839-a64bffb4-4b6d-4495-8f6e-d99b229bd5d8.png)
 
 You're all set. Switch to your project, open a javascript file and (maybe) start fixing eslinter errors.
 
