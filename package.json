@@ -142,10 +142,8 @@
     "loophole": "1.1.0"
   },
   "devDependencies": {
-    "@semantic-release/apm-config": "8.0.0",
     "eslint-config-airbnb-base": "15.0.0",
-    "eslint-plugin-import": "2.22.1",
-    "semantic-release": "17.1.2"
+    "eslint-plugin-import": "2.22.1"
   },
   "package-deps": [
     {
@@ -163,8 +161,5 @@
         "2.0.0": "provideLinter"
       }
     }
-  },
-  "release": {
-    "extends": "@semantic-release/apm-config"
   }
 }
