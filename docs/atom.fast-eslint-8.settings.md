@@ -1,10 +1,7 @@
 [README](https://github.com/db-developer/fast-eslint-8#fast-eslint-8-package)  
-<hr\>
 
-fast-eslint-8 settings can be changed via the 'File' => 'Settings' menu in Atom.  
 ![atom settings-short](https://user-images.githubusercontent.com/2765933/158047464-9f39a5c5-d460-426e-8415-45339c2028e0.png)  
-This will open the ![atom fast-eslint-8 settings-tab](https://user-images.githubusercontent.com/2765933/156207814-8cb06045-2982-4c0a-9270-10968f55f50e.png)-Tab.  
-Navigate to ![atom fast-eslint-8 settings-tab-packages](https://user-images.githubusercontent.com/2765933/156208574-c340356b-8494-4924-aca7-9b192c19ada2.png) and type 'fast-eslint-8' into the searchbox and click on 'Settings'.  
+This will open the ![atom fast-eslint-8 settings-tab](https://user-images.githubusercontent.com/2765933/156207814-8cb06045-2982-4c0a-9270-10968f55f50e.png)-Tab. Navigate to ![atom fast-eslint-8 settings-tab-packages](https://user-images.githubusercontent.com/2765933/156208574-c340356b-8494-4924-aca7-9b192c19ada2.png) and type 'fast-eslint-8' into the searchbox and click on 'Settings'.  
 
 ![atom fast-eslint-8 packages](https://user-images.githubusercontent.com/2765933/156210348-b76da99f-d2e8-42f0-abbb-1223bd31c4c8.png)
 
