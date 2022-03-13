@@ -1,4 +1,5 @@
-[README](https://github.com/db-developer/fast-eslint-8#fast-eslint-8-package)  
+[Back to [README](https://github.com/db-developer/fast-eslint-8#fast-eslint-8-package)]  
+___
 
 ![atom settings-short](https://user-images.githubusercontent.com/2765933/158047464-9f39a5c5-d460-426e-8415-45339c2028e0.png)  
 This will open the ![atom fast-eslint-8 settings-tab](https://user-images.githubusercontent.com/2765933/156207814-8cb06045-2982-4c0a-9270-10968f55f50e.png)-Tab. Navigate to ![atom fast-eslint-8 settings-tab-packages](https://user-images.githubusercontent.com/2765933/156208574-c340356b-8494-4924-aca7-9b192c19ada2.png) and type 'fast-eslint-8' into the searchbox and click on 'Settings'.  
@@ -63,4 +64,8 @@ For [working with rules](https://eslint.org/docs/developer-guide/working-with-ru
 ![atom fast-eslint-8 settings eslint-engine-options auto-load](https://user-images.githubusercontent.com/2765933/156226792-19daa8d1-5dee-4f1d-bc86-6eca2ea302db.png)
 
 ## Grammar scopes
-![atom fast-eslint-8 settings grammar-scopes](https://user-images.githubusercontent.com/2765933/156227907-e7e1974f-85c1-456f-aaee-21c746bbdab5.png)
+![atom fast-eslint-8 settings grammar-scopes](https://user-images.githubusercontent.com/2765933/156227907-e7e1974f-85c1-456f-aaee-21c746bbdab5.png)  
+
+___  
+
+[Back to [README](https://github.com/db-developer/fast-eslint-8#fast-eslint-8-package)]  
