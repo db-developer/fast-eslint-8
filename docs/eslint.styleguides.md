@@ -32,8 +32,8 @@ module.exports = {
 
 ```
 > __Note:__  
-> Alternatively you can add this to your <code>fast-eslint-8</code> 'base config' settings,
-> if you want to use a styleguide for all of your projects.
+> Alternatively you can add the configuration name to your <code>fast-eslint-8</code>
+> 'base config' settings, if you want to use a styleguide for all of your projects.
 
 ___  
 
