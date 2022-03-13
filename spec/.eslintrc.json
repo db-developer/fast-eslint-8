@@ -4,5 +4,8 @@
   },
   "globals": {
     "waitsForPromise": true
+  },
+  "parserOptions": {
+    "ecmaVersion": "latest"
   }
 }
