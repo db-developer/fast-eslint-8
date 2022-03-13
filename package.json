@@ -138,7 +138,7 @@
   "dependencies": {
     "atom-linter": "^10.0.0",
     "atom-package-deps": "^8.0.0",
-    "eslint": "^8.9.0",
+    "eslint": "^8.11.0",
     "loophole": "1.1.0"
   },
   "devDependencies": {
