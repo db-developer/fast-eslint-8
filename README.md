@@ -38,7 +38,7 @@ ___
 
 ### No ESLint configuration found in &lt;filename&gt;
 
-
+![eslint no configuration found](https://user-images.githubusercontent.com/2765933/158055125-f7196053-4a8c-4b21-a927-196517b08ce7.png)
 
 You simply forgot to provide an .eslintrc.* file in the named directory.  
 If you choose to provide an .eslintrc.js file, its content might look as follows:  
