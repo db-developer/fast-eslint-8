@@ -74,7 +74,7 @@
           "default": "",
           "order": 3
         },
-        "reportUnusedDisableDirectives ": {
+        "reportUnusedDisableDirectives": {
           "title": "Report unused disable directives",
           "description": "The severity to report unused eslint-disable directives. If set, it overrides namelike settings in your configurations.",
           "type": "string",
