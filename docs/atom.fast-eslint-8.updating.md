@@ -5,7 +5,7 @@ ___
 
 1. Open a windows command shell
 2. `cd` to your windows userhome (usually c:\\windows\\users\\&lt;username&gt;)
-3. `cd` to `.atom\\packages\\fast-eslint-8`
+3. `cd` to `.atom\packages\fast-eslint-8`
 4. type and execute <code>apm update</code>
 
 ___  
