@@ -66,7 +66,7 @@ module.exports = {
 >      "fast-eslint-8":
 >        baseConfig:
 >          extends: [
->            <enter the configuration name here>"
+>            "<enter the configuration name here>"
 >          ]
 >    ```
 ___  
