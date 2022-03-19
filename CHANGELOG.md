@@ -2,6 +2,36 @@
 
 All notable changes to this project will be documented in this file.
 
+## [5.1.3](https://github.com/db-developer/fast-eslint-8/compare/v5.1.2...v5.1.3) - 2022-03-19
+
+### Added
+
+- Some test suites
+- Some docs
+
+### Changed
+
+- Made linter follow 'grammar scopes' (settings) without having to restart atom.
+- Removed "use babel" from code and switched modules to cjs.
+- Moved functions to support-modules.  
+  Preparation for moving code to a 'support' library, so future 'fast-eslint-9' and current 'fast-eslint-8'
+  can use the same fully tested and functional support library.
+
+### Fixed
+
+- Removed linting content of texteditors, which were neither visible nor part of the current project.  
+  Linting is incorrectly triggered by package 'linter' on 'auto lint files' on 'project change' and happens
+  when switching between projects, with more than one entry in <code>project.rootDirectories</code>.
+
+### Removed
+
+- module loading tweak for global node_modules.  
+  This was used, to enable atom to load packages like <code>eslint-config-standard</code>,
+  <code>eslint-config-standard-react</code>, <code>eslint-config-airbnb</code> and others,
+  that were globally installed.  
+  I removed this for security reasons and to reduce interferences between apm and npm and
+  finally because the packages named above, can be installed by simply using apm.
+
 ## [5.1.2](https://github.com/db-developer/fast-eslint-8/compare/v5.1.1...v5.1.2) - 2022-03-01
 
 ### Added
