@@ -5,14 +5,19 @@
  *  even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
  *
  */
+"use strict";
 
 /**
  *  Moduletable
  *  @ignore
  */
 const _m = {
-  lint:   require( "../lib/index.js" ).provideLinter().lint
+  conf:   require( "../lib/config" ),
+  lint:   require( "../lib/lint"   ).lint
 };
+
+// required to adapt to fast-eslint-8, fast-eslint-9, ... fast-eslint-<n>
+_m.conf.initContext({ packagename: "fast-eslint-8" });
 
 /**
  *  Run eslint on 'filepath'. Taken from arnaud-dezandee/fast-eslint
@@ -21,8 +26,7 @@ const _m = {
  *  @return {object} eslint results
  */
 module.exports.openFile = ( filepath ) => (
-  atom.workspace
-      .open( filepath )
+  atom.workspace.open( filepath )
       .then(( editor ) => _m.lint( editor ))
 );
 
