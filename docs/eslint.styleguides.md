@@ -4,7 +4,7 @@ ___
 ## Popular javascript style guides
 
 
-* Airbnb: eslint-config-airbnb (tested and compatible)
+* Airbnb: eslint-config-airbnb (tested and compatible)  
   [git](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb),
   [npm](https://www.npmjs.com/package/eslint-config-airbnb),
   [yarn](https://yarnpkg.com/package/eslint-config-airbnb)
