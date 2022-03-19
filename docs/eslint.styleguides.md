@@ -32,8 +32,8 @@ Some <code>atom</code> packages provide tweaks to access npm packages, which are
 ### Installation on Windows
 
 1. Open a powershell or a windows command shell.
-2. `cd` to your windows userhome (usually c:\\windows\\users\\&lt;username&gt;)
-3. `cd` to `.atom\\packages\\fast-eslint-8`
+2. `cd` to your windows userhome (usually `c:\windows\users\<username>`)
+3. `cd` to `.atom\packages\fast-eslint-8`
 4. type and execute `.\npm.ps1 install eslint-config-<styleguide name>`
 5. type and execute `.\npm.ps1 install <peer dependency name>` for every peer dependency.
 
@@ -66,7 +66,7 @@ module.exports = {
 >      "fast-eslint-8":
 >        baseConfig:
 >          extends: [
->            "<enter the configuration name here>"
+>            <enter the configuration name here>"
 >          ]
 >    ```
 ___  
