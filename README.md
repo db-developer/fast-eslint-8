@@ -8,6 +8,10 @@ Lightweight eslint v8.x linter plugin for [Atom](https://atom.io), based on fast
 [![APM](https://img.shields.io/apm/dm/fast-eslint-8?color=blue)](https://atom.io/packages/fast-eslint-8)
 [![eslint](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/db-developer/fast-eslint-8/master/package.json&label=eslint&query=$.dependencies.eslint&color=darkgreen)](https://eslint.org)
 
+This project will not be continued. See [Microsoft is sunsetting atom](https://github.blog/2022-06-08-sunsetting-atom/) for more.
+
+---
+
 fast-eslint-8 is a migration of [fast-eslint](https://github.com/arnaud-dezandee/fast-eslint/) from using
 eslint 7.10 to eslint 8.x (see badge for current version).  
 
